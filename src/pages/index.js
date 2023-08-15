@@ -81,21 +81,19 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.container}>
+          <div className={styles.logo}>
+            <Image 
+            src="/logo.png"
+           style={styles.logo}
+           width={80}
+           height={80}
+           
+             
+          
+        />
+          </div>
           <h1 className={styles.title}>Soil Monitoring Web Application</h1>{" "}
-          <p className={styles.problem}>
-            IoT Based Soil Nutrient Monitoring & Analysis systems using Arduino
-            & ESP32. Soil is the base of agriculture. Soil provides nutrients
-            that increase the growth of a crop. Some chemical and physical
-            properties of soil, such as its moisture, temperature, soil
-            nitrogen, phosphorous & potassium content heavily affect the yield
-            of a crop. These properties can be sensed by the open-source
-            hardware, and they can be used in the field. In this project, a soil
-            Nutrient monitoring & analysis system is proposed in which the
-            farmer will be able to monitor soil moisture, soil temperature, and
-            soil nutrient content like Nitrogen, Phosphorous & Potassium. The
-            farmer can monitor all these parameters wirelessly on a mobile phone
-            or the PC System.
-          </p>
+          
           <div className={styles.info}>
             <p className={styles.head}>Sensor Data </p>
             <div className={styles.info1}>

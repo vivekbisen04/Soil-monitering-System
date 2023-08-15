@@ -4,23 +4,37 @@
   justify-content: space-between;
   align-items: center;
 }
+.logo{
+  width: 80px;
+  height: 80px;
+  border-radius: 10%;
+
+  margin-top: 40px;
+}
 
 .button {
   background-color: #4CAF50;
   /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15% 32%;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 16%;
 }
 
 .title {
-  margin-top: 100px;
-  font-size: 30px;
+  margin-top: 70px;
+  font-size: 4rem;
   font-weight: bold;
   color: #595067;
+
+}
+.work{
+  margin-top: 60px;
+  font-weight: 1000;
+  font-size:2rem;
+
 }
 
 .container {
